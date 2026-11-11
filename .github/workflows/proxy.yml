@@ -2,7 +2,7 @@ name: Proxy
 
 on:
   push:
-    branches: [master]
+    branches: [master, feat/proxy-token-auth]
     paths:
       - 'proxy/**'
       - '.github/workflows/proxy.yml'
